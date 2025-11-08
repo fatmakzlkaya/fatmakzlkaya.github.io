@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body class="{% if page.url == '/' %}home{% endif %}">
+
+    <!-- NAVBAR -->
+    <nav class="navbar sticky-nav">
+        <div class="navbar-container">
+            <a class="nav-logo" href="{{ '/' | relative_url }}">🏠</a>
+            <div class="nav-links">
+                <a href="{{ '/machine-learning/' | relative_url }}">Machine Learning</a>
+                <a href="{{ '/security/' | relative_url }}">Security</a>
+                <a href="{{ '/news/' | relative_url }}">News</a>
+                <a href="{{ '/articles/' | relative_url }}">Articles</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    {% if page.url == "/" %}
+    <header class="home-hero">
+        <h1>🧠 Checkered Notes</h1>
+        <p>Curiosity meets Clarity: Security, Machine Learning, and AI Insights.</p>
+    </header>
+    {% else %}
+    <header class="page-hero">
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+    </header>
+    {% endif %}
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+        {{ content }}
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <p>&copy; 2025 Checkered Notes</p>
+    </footer>
+
+</body>
+</html>
