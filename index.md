@@ -6,7 +6,7 @@ title: "Checkered Notes"
 <h2>Quick Access Categories 🚀</h2>
   <div class="category-container">
   <div class="category-card">
-    <h3>🖥️ Linux </h3>
+    <h3>🖥️ Linux</h3>
     <p>Notes on AI algorithms and data science.</p>
     <a href="{{ '/machine-learning/' | relative_url }}">Explore »</a>
   </div>
@@ -16,24 +16,9 @@ title: "Checkered Notes"
     <a href="{{ '/machine-learning/' | relative_url }}">Explore »</a>
   </div>
   <div class="category-card">
-    <h3>🤖 AI</h3>
-    <p>Notes on AI algorithms and data science.</p>
-    <a href="{{ '/machine-learning/' | relative_url }}">Explore »</a>
-  </div>
-  <div class="category-card">
-    <h3>🔒 Security</h3>
-    <p>In-depth reviews on cybersecurity, cryptography, and network protocols.</p>
-    <a href="{{ '/security/' | relative_url }}">Explore »</a>
-  </div>
-  <div class="category-card">
-    <h3>📰 News</h3>
+    <h3>📰 News and More</h3>
     <p>The latest developments and analysis from the tech world.</p>
     <a href="{{ '/news/' | relative_url }}">Explore »</a>
-  </div>
-  <div class="category-card">
-    <h3>✍️ Articles</h3>
-    <p>Deep personal analyses and technical writings.</p>
-    <a href="{{ '/articles/' | relative_url }}">Explore »</a>
   </div>
 </div>
 
