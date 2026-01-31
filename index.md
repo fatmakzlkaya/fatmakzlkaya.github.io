@@ -4,10 +4,19 @@ title: "Checkered Notes"
 ---
 
 <h2>Quick Access Categories 🚀</h2>
-
-<div class="category-container">
+  <div class="category-container">
   <div class="category-card">
-    <h3>🤖 Machine Learning</h3>
+    <h3>🖥️ Linux </h3>
+    <p>Notes on AI algorithms and data science.</p>
+    <a href="{{ '/machine-learning/' | relative_url }}">Explore »</a>
+  </div>
+  <div class="category-card">
+    <h3>🛜 Networking</h3>
+    <p>Notes on AI algorithms and data science.</p>
+    <a href="{{ '/machine-learning/' | relative_url }}">Explore »</a>
+  </div>
+  <div class="category-card">
+    <h3>🤖 AI</h3>
     <p>Notes on AI algorithms and data science.</p>
     <a href="{{ '/machine-learning/' | relative_url }}">Explore »</a>
   </div>
